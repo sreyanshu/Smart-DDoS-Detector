@@ -1,0 +1,18 @@
+This is a mini lab DDOS project where it detects the traffic and detects whether the attack is DDOS or Not.
+
+the tools used are --------Only (PYTHON) 
+
+To run this project-
+
+1) Go to Victims dedicated/integrated Terminal and 
+               Run---> pyhton Victim.py
+2) Go to Attackers dedicated/integrated Terminal and 
+               Run---> python attacker.py
+3) Go to detector dedicated/integrated Terminal and 
+               Run---> detector attacker.py
+
+
+OUTPUT:-
+1) first the victim server will be ON on port 8080
+2) The Attacker will send DDOS request to the Victim with 50 BOTS
+3) The detection system will detect and will block the incoming IP trying for DDOS attack.
